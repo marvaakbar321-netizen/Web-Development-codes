@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment no 04</title>
+    <style>
+        body {
+      background-color: #d4f0db;
+      margin: 0;
+      padding: 0;
+    }
+
+    #top-section {
+      padding: 20px;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+
+    #logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: black;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    #logo span {
+      color: #ff6600;
+    }
+
+    #menu {
+      float: right;
+    }
+
+    #menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #menu ul li {
+      display: inline-block;
+      margin-left: 40px;
+      font-size: 16px;
+      color: black;
+      vertical-align: middle;
+    }
+
+    #menu ul li:hover {
+      color: #20b15a;
+    }
+
+    .services-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .services-dropdown button {
+      background: none;
+      border: none;
+      font-size: 16px;
+      color: black;
+      cursor: pointer;
+      font-weight: normal;
+    }
+
+    .services-dropdown:hover button {
+      color: #20b15a;
+    }
+
+    .services-dropdown:hover .dropdown-list {
+      display: block;
+    }
+
+    .dropdown-list {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 200px;
+      border-radius: 8px;
+      padding: 10px 0;
+      margin-top: 10px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+      left: -20px;
+    }
+
+    .dropdown-list li {
+      display: block;
+      padding: 12px 20px;
+      margin-left: 0;
+      color: black;
+    }
+
+    .dropdown-list li:hover {
+      background-color: #e8f5e9;
+      color: #20b15a;
+    }
+
+    #buttons {
+      display: inline-block;
+      margin-left: 40px;
+    }
+
+    #login-button {
+      padding: 12px 30px;
+      border-radius: 10px;
+      border: 1px solid #20b15a;
+      background: white;
+      color: black;
+      font-size: 16px;
+    }
+
+    #register-button {
+      padding: 12px 30px;
+      border-radius: 10px;
+      background-color: #20b15a;
+      color: white;
+      border: none;
+      margin-left: 15px;
+      font-size: 16px;
+    }
+    #main-section{
+        padding: 60px 80px;
+        display: flex;
+    }
+    #content{
+        width: 50%;
+        padding-right: 40px;
+    }
+    #heading{
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 65px;
+        margin-bottom: 20px;
+    }
+    #para2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #btn{
+        padding: 20px 30px;
+        border-radius: 16px;
+        background-color: #20b15a;
+        color: white;
+        border: none;
+        font-size: 16px;
+    }
+    #image-section{
+        width: 50%;
+        text-align: right;
+    }
+    #image-section img{
+        max-width: 100%;
+        height: auto;
+    }
+    .partners{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f8f8f8;
+        padding: 50px 100px;
+        margin-top: 0;
+        gap: 60px;
+    }
+    .partners img{
+        height: 35px;
+        width: auto;
+        object-fit: contain;
+    }
+    </style>
+</head>
+<body>
+    <div id="top-section">
+      <div id="logo">Design<span>AGENCY</span></div>
+      <div id="menu">
+        <ul>
+          <li class="services-dropdown">
+            <button>Services ▼</button>
+            <ul class="dropdown-list">
+              <li>Web Design</li>
+              <li>Graphic Design</li>
+              <li>UI/UX Design</li>
+              <li>Branding</li>
+              <li>Digital Marketing</li>
+            </ul>
+          </li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li id="buttons">
+            <button id="login-button">Login</button>
+            <button id="register-button">Register</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="main-section">
+        <div id="content">
+            <h1 id="heading">
+                Increase Your
+                <br>
+                Customers Loyalty
+                <br>
+                and Satisfaction
+            </h1>
+            <p id="para2">
+                We help businesses like yours earn more customers,
+                <br> standout from competitors,  make more money.
+            </p>
+            <button id="btn">Get Started</button>
+        </div>
+        <div id="image-section">
+            <img src="./Header Lady 1 (1).png" alt="img">
+        </div>
+    </div>
+    <div class="partners">
+        <img src="./logos_google.png" alt="google">
+        <img src="./Trello-logo-blue 1.png" alt="trello">
+        <img src="./logos_monday.png" alt="monday">
+        <img src="./Notion.png" alt="notion">
+        <img src="./Slack.png" alt="Slack">
+    </div>
+</body>
+</html>

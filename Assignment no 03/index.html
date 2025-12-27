@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment no 03</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        .hero{
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+        }
+        .hero h1{
+            font-weight: bold;
+        }
+        .hero small{
+            color: gray;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        .container{
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar{
+            width: 250px;
+        }
+        .sidebar ul{
+            list-style: none;
+            box-sizing: border-box;         
+        }
+        .sidebar li{
+            padding: 12px;
+            border: 1px solid gainsboro;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        .sidebar li.active{
+            background-color: #4caf50;
+            color: white;
+        }
+        .content{
+            flex: 1;
+            padding-left: 20px;
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+        .content img{
+            max-width: 100%;
+            width: 650px;
+            height: 360px;
+        }
+        .content h2{
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+     <div class="hero">
+        <small>Our Services</small>
+        <h1>We Can Help You With This Situation</h1>
+     </div>
+     <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li class="active">Relation Problem</li>
+                <li>Couples Counselling</li>
+                <li>Depression Treatment</li>
+                <li>Family Problem</li>
+                <li>Personal Problem</li>
+                <li>Business Problem</li>
+            </ul>
+        </div>
+        <div class="content">
+            <img src="./image.jpg" alt="Relation Problem">
+            <h2>Relation Problem</h2>
+            <p>
+                Far far away,behind the word mountains,far from the countries Vokalia and Consonantia,there <br>
+                live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,<br>
+                a large language ocean.
+            </p>
+        </div>
+     </div>
+</body>
+</html>

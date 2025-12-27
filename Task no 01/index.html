@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task no 01</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .section{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px;
+            background-color: #fff;
+        }
+        .card{
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 10px black;
+            width: 45%;
+        }
+        .card h1{
+            font-size: 24px;
+            margin: 20px;
+        }
+        .eco-label{
+            background-color: green;
+            color: white;
+            padding: 5px 12px;
+            font-weight: bold;
+            border-radius: 4px;
+            font-size: 20px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        ul{
+            padding-left: 20px;
+            line-height: 1.8;
+            margin: 20px;
+            font-weight: 600;
+        }
+        .btn{
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 15px;
+            text-decoration: none;
+        }
+        .image{
+            position: absolute;
+            top: 50%;
+            right: 60px;
+            transform: translateY(-50%);
+            width: 30%;
+        }
+        .image img{
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="Section">
+        <div class="card">
+            <div class="eco-label">Eco-Club</div>
+            <h1>Collect Bonus points and save money!</h1>
+            <p>As a Mama Willow Eco-Club member, you earn ECO points with every
+                purchase. You can redeem them on your next order as a discount! Plus,
+                as more as you purchase you get closer to our VIP program!
+            </p>
+            <ul>
+                <li>Earn 1 Mama Willow point for every 1 EUR purchase</li>
+                <li>Refer friends & earn 112 bonus points</li>
+                <li>Redeem 100 bonus points for 10 EUR</li>
+                <li>Enter our VIP tiers</li>
+            </ul>
+            <a href="#" class="btn">Check the details here</a>
+        </div>
+        <div class="image">
+            <img src="./BG image.avif" alt="flower design">
+        </div>
+    </div>
+</body>
+</html>

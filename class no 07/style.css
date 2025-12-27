@@ -1,0 +1,47 @@
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    display: block;
+    flex-direction: column;
+    width: 100px;
+    border-radius: 50px;
+    gap: 20px;
+}
+div{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+    background-color: sandybrown;
+}
+#first{
+    background-color: yellow;
+    width: 100px;
+    padding: 10px;
+}
+#second{
+    background-color: aqua;
+    width: 100px;
+    padding: 10px;
+}
+#third{
+    background-color: blueviolet;
+    width: 100px;
+    padding: 10px;
+}

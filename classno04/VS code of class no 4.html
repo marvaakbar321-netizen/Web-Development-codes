@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/classno04/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Block Element or Inline Element -->
+    <p><b>hello</b></p>
+    <p><i>Italic</i></p>
+    <p><u>Underline</u></p>
+    <p><strong>Strong</strong></p>
+    <p><em>Emphasize</em></p>
+    <p><strike>Hello</strike></p>
+    
+    <!-- Div -> Block, Span -> inline -->
+    <!-- style attribute property Name : property Value -->
+     <div style="color: brown; background-color: aqua;" <p="">Saylani<p></p>
+     <p>Welcome</p>
+     </div> --&gt;
+     <div>
+        <img src="./VS code of class no 4_files/imageno1.jpg" alt="Image no 01" width="150" height="150">
+     </div>
+     <div style="background-color: black; color: white;">
+        <img src="./VS code of class no 4_files/imageno2.jpg" alt="Image no 02" width="150" height="150">
+        <h2 style="border: 1px solid white;">Soft leather Jacket</h2>
+        <p>Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p>
+        <a href="./VS code of class no 4_files/imageno2.jpg"> Discover Now</a>
+     </div>
+
+     
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

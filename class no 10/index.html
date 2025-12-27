@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class no 10</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: sans-serif;
+            background-color: #d7f5dc;
+            /*overflow: x-auto; if overflow is given here,only this part will be affected.*/
+        }
+        .main{
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: 5px dotted black;
+            width: 100%;
+            /*height: 100px;
+            overflow: auto;if written here,whole page is affected.*/
+        }
+        /*pixel perfect:when we have to make same design,we use height..otherwise by defining height before,content will be disturbed or overflow..*/
+        h1{
+            font-weight: 700;
+            font-style: Bold;
+            font-size: 50px;
+            line-height: 65px;
+            letter-spacing: 0%;
+        }
+        p{
+            margin-top: 10px;
+            font-weight: 500px;
+            font-style: medium;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }   
+        button{
+            margin-top: 37px;
+            background-color: #20b15a;
+            width: 175px;
+            height: 70px;
+            border-radius: 16px;
+            padding-block: 20px;
+            padding-inline: 30px;
+            border: none;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: white;
+        }
+        img{
+            width: 684px;
+            height: 564px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+    <h1>
+        Increase Your <br> Customers Loyalty <br> and Satisfaction.
+    </h1>
+    <p>We help businesses like yours earn more customers,<br>
+         standout from competitors,make more money</p>
+         <button>Get Started</button>
+            </div>
+            <div class="right">
+                <img src="./Header Lady 1.png" alt="">
+            </div>
+         </div>
+</body>
+</html>
