@@ -4,8 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment no 05</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial,sans-serif;
+        }
+        .contact-section{
+            background-color: #e8e8e8;
+            padding: 60px 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .hard-enough{
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .contact-heading{
+            font-size: 48px;
+            font-weight: normal;
+            font-family: Georgia, serif;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+        .yellow-btn{
+            width: 70px;
+            height: 70px;
+            background-color: #d4ff00;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+        .footer{
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 50px 80px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .tagline{
+            width: 180px;
+        }
+        .tagline h2{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1.3;
+        }
+        .location{
+            font-size: 13px;
+        }
+        .location h3{
+            font-size: 12px;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            color: #888;
+        }
+        .location a{
+            color: #fff;
+            text-decoration: underline;
+        }
+        .location p{
+            margin: 5px 0;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        .map-link{
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 12px;
+            letter-spacing: 1px;
+            text-decoration: underline;
+        }
+        .newsletter{
+            font-size: 12px;
+        }
+        .newsletter h3{
+            color: #888;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .newsletter-link{
+            color: #d4ff00;
+            text-decoration: underline;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        .follow-us{
+            margin-top: 30px;
+            color: #888;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        .social-icons{
+            margin-top: 15px;
+            display: flex;
+            gap: 25px;
+        }
+        .social-icons a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="contact-section">
+        <div class="hard-enough">
+         HEARD <br>ENOUGH? →
+        </div>
+        <h1 class="contact-heading">Contact us</h1>
+        <div class="yellow-btn">→</div>
+    </div>
+    <div class="footer">
+        <div class="tagline">
+            <h2>The agency for impatient brands®</h2>
+        </div>
+        <div class="location">
+            <h3>LONDON</h3>
+            <a href="mailto:newbusiness@weareimpero.com">newbusiness@weareimpero.com</a>
+            <p>+44 20 7998 7571</p>
+            <p>Unit 306, Metropolitan Wharf, <br> 70 Wapping Wall,London E1W 3SS</p>
+            <a href="#" class="map-link">SEE ON MAP ↗️</a>
+        </div>
+            <div class="location">
+            <h3>BUENOS AIRES</h3>
+            <a href="mailto:buenosaires@weareimpero.com">buenosaires@weareimpero.com</a>
+            <p>+54 11 6799 7949</p>
+            <p>Cabildo 1458 1st floor, <br>Buenos Aires</p>
+            <a href="#" class="map-link">SEE ON MAP ↗️</a>
+        </div>
+        <div class="newsletter">
+            <h3>WANT TO BE THE SMARTEST <br>IN YOUR OFFICE?</h3>
+            <a href="#" class="newsletter-link">SIGN UP FOR OUR NEWSLETTER →</a>
+            <p class="follow-us">FOLLOW US</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-behance"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
