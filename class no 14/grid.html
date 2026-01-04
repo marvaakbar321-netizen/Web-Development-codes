@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            /*grid-template-columns: 2fr 2fr 2fr;hum fr ki jaga pe repeat bhi use kar sakte hain jese*/
+            grid-template-columns: repeat(3, 200px);/*jo brackets ke andar likte hain wo function hota hai*/
+            /*margin: auto;
+            justify-items: center;*/
+            justify-content: center;
+        }
+        .box{
+            background-color: black;
+            width: 200px;
+            height: 200px;
+        }
+        /* function arguement, parameter*/
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+            <div class="box">
+
+            </div>
+    </div>
+</body>
+</html>
