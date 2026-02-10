@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 20px;
+        }
+        .parent{
+            border: 1px solid black;
+            width: 50%;
+            padding: clamp(10px, 4vw, 40px);
+            /*padding: 20px;
+            4% = 4/100 ,vw = view width
+            411*/
+        }
+        h1{
+            border: 1px solid red; 
+        }
+        p{
+            border: 1px solid red;
+        }
+        /*body{
+            font-size: 20px;
+        }
+        p{
+            font-size: 1rem;
+        }
+        .parent{
+            font-size: 1rem;
+        }
+        .child{
+            font-size: 1em;
+        }*/
+        /* 1rem = 20px;
+        2rem = 40px;
+        3rem = 60px;*/
+
+        /* em*/
+        </style>
+</head>
+<body>
+    <!--Settings Appearance-->
+    <!--<p>class no 17</p>-->
+    <!-- rem ka matlab hai ke agar hum ne body ko font size 20px diya hai to us ke baad hum jin
+     bhi tags main font size use karein ge wo khud ba khud rem unit ban jae ga. rem unit ka koi
+     parent nhii hota. rem hamari diye ga ematlab body tag ko diye gae font size par depend 
+     hota hai -->
+    
+     <!--<div class="parent">
+        <p>child</p>
+    </div> -->
+    
+    <!-- em unit rem unit ka child hai matlab rem parent hai em ka. em apne parent par depend
+      karta hai ke us ke parent ke parent ko kya font size diya agaya hai matlab 
+      em = child
+      rem = parent 
+      body matlab *tag = parent-->
+      <!-- agar hum child em ko parent rem nhii dete to child em phir body tag (parent) 
+       ko diye gae font size par depend karta hai. --> 
+       <!-- hum rem ko sirf font size par apply karne ke saath saath baaqi tags jese
+        padding, width, height ko bhi de sakte hain -->
+
+        <!-- Clamp in Css-->
+         <!-- Clamp ki three properties hain(minimum, preferred, maximum)-->
+          <!-- clamp padding main use hota hai is ka matlab hai ke har single page main padding
+           change ho gi. jab hum padding ko clamp nhi dete to wo padding har page pe whi matlab
+           same hi rehti hai.-->
+         <div class="parent">
+            <h1>Standard</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Delectus harum tempore cumque enim accusamus eum veniam  <br>
+                excepturi exercitationem, consequuntur cum deleniti rerum quas <br>
+                dicta eos nihil, ipsa sed eveniet adipisci.</p>
+         </div>
+</body>
+</html>
